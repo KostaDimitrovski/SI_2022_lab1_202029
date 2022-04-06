@@ -1,0 +1,129 @@
+Лабораториска СИ.
+
+4.git clone https://github.com/KostaDimitrovski/SI_2022_lab1_202029.git
+5.git add -all (ги правам сите измени во staged)
+5.git commit -m 'add 5 items to shopping list' (правам commit на промените)
+6.git add -all (ги правам сите измени во staged)
+6.git commit -m 'add quantities to the items' (правам commit на промените)
+7.git branch branch1 (нова гранка)
+7.git branch branch2 (нова гранка)
+8. git log (logovite до 8 барање).
+commit beaaca43a9618bc64884f205c903553f4916af84 (HEAD -> master, origin/master, origin/HEAD)
+Author: Kosta <dimitrovskikosta2@gmail.com>
+Date:   Wed Apr 6 19:10:13 2022 +0200
+
+    Add quantities to the items
+
+commit 50a18cc5eee4aafc7516b7239313f7e15f75aaec (branch2, branch1)
+Author: Kosta <dimitrovskikosta2@gmail.com>
+Date:   Sun Mar 27 19:32:13 2022 +0200
+
+    Add 5 items to the shopping list
+
+commit 19b9d4bf552a346489783a283c4e656f235d9b5e
+Author: KostaDimitrovski <100414407+KostaDimitrovski@users.noreply.github.com>
+Date:   Sun Mar 27 19:18:00 2022 +0200
+
+    Update README.md
+
+commit f34d220d2f212295eb33b579ca29db94a55e97d3
+Author: KostaDimitrovski <100414407+KostaDimitrovski@users.noreply.github.com>
+Date:   Sun Mar 27 14:29:10 2022 +0200
+
+    Update README.md
+
+commit 6c4b2594038915cc0f1412a506a4d1115f903b3b
+Author: KostaDimitrovski <100414407+KostaDimitrovski@users.noreply.github.com>
+Date:   Sun Mar 27 14:27:21 2022 +0200
+
+
+9.git push (додавање на промените на github)
+10.git checkout branch1 (префрлување на граката branch1)
+11. git add shopping_list.txt (измените одат во staged)
+11.git commit -m '“Change quantity of item #5' (commit на измените)
+12.git checkout master (префрлување на master)
+13.git add shopping_list.txt(измените одат во staged)
+13.git commit -m 'Change quantity of item #2'(commit на измените)
+14.git push na site granki
+15.git checkout branch2(префрлување на граката branch2)
+16. git add shopping_list.txt(измените одат во staged)
+16.git commit -m 'Modify item #4'(commit на измените)
+17. git log
+ git log
+commit ec082f9f30a56129c367c482231cea0d19819f97 (HEAD -> branch2)
+Author: Kosta <dimitrovskikosta2@gmail.com>
+Date:   Wed Apr 6 19:47:19 2022 +0200
+
+    Modify item #4
+
+commit beaaca43a9618bc64884f205c903553f4916af84 (origin/branch2)
+Author: Kosta <dimitrovskikosta2@gmail.com>
+Date:   Wed Apr 6 19:10:13 2022 +0200
+
+    Add quantities to the items
+
+commit 50a18cc5eee4aafc7516b7239313f7e15f75aaec
+Author: Kosta <dimitrovskikosta2@gmail.com>
+Date:   Sun Mar 27 19:32:13 2022 +0200
+
+    Add 5 items to the shopping list
+
+commit 19b9d4bf552a346489783a283c4e656f235d9b5e
+Author: KostaDimitrovski <100414407+KostaDimitrovski@users.noreply.github.com>
+Date:   Sun Mar 27 19:18:00 2022 +0200
+
+    Update README.md
+
+commit f34d220d2f212295eb33b579ca29db94a55e97d3
+Author: KostaDimitrovski <100414407+KostaDimitrovski@users.noreply.github.com>
+Date:   Sun Mar 27 14:29:10 2022 +0200
+
+    Update README.md
+
+commit 6c4b2594038915cc0f1412a506a4d1115f903b3b
+Author: KostaDimitrovski <100414407+KostaDimitrovski@users.noreply.github.com>
+Date:   Sun Mar 27 14:27:21 2022 +0200
+
+    Initial commit
+18.git add shopping_list.txt(измените одат во staged)
+18.git commit --amend -m 'Modify item #4 and add item #6'(commit на измени од претходниот commit)
+19git log
+commit 13ac41b42749bee837170676a914b152a54cc80c (HEAD -> branch2)
+Author: Kosta <dimitrovskikosta2@gmail.com>
+Date:   Wed Apr 6 19:47:19 2022 +0200
+
+    Modify item #4 and add item #6
+
+commit beaaca43a9618bc64884f205c903553f4916af84 (origin/branch2)
+Author: Kosta <dimitrovskikosta2@gmail.com>
+Date:   Wed Apr 6 19:10:13 2022 +0200
+
+    Add quantities to the items
+
+commit 50a18cc5eee4aafc7516b7239313f7e15f75aaec
+Author: Kosta <dimitrovskikosta2@gmail.com>
+Date:   Sun Mar 27 19:32:13 2022 +0200
+
+    Add 5 items to the shopping list
+
+commit 19b9d4bf552a346489783a283c4e656f235d9b5e
+Author: KostaDimitrovski <100414407+KostaDimitrovski@users.noreply.github.com>
+Date:   Sun Mar 27 19:18:00 2022 +0200
+
+    Update README.md
+
+commit f34d220d2f212295eb33b579ca29db94a55e97d3
+Author: KostaDimitrovski <100414407+KostaDimitrovski@users.noreply.github.com>
+Date:   Sun Mar 27 14:29:10 2022 +0200
+
+    Update README.md
+
+commit 6c4b2594038915cc0f1412a506a4d1115f903b3b
+Author: KostaDimitrovski <100414407+KostaDimitrovski@users.noreply.github.com>
+Date:   Sun Mar 27 14:27:21 2022 +0200
+
+    Initial commit
+20.git merge branch1 (спојување со master)
+20.git merge branch2 (спојување со master)
+Се случи конфликт со master и branch2 и го решив проблемот со зимање на стапките на 
+branch2.Се употреби recursive merging.
