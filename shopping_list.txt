@@ -1,11 +1,6 @@
 jabolka x 2
-cresha x 13
-portokal x 4	
-<<<<<<< HEAD
+cresha x 13	
 leb x 2 
 banana x 6
-=======
 jagoda x 2 
-banana x 10
 portokal x 3
->>>>>>> branch2
